@@ -27,3 +27,6 @@ end
 
 
 Scraper.new.get_page
+
+doc.css(".post").first.css("h2").text #title 
+
