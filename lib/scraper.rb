@@ -28,6 +28,7 @@ end
 
 Scraper.new.get_page
 
+doc.css(".post")
 doc.css(".post").first.css("h2").text #title 
 doc.css(".post").first.css(".date").text #date 
-
+doc.css(".post").first.css("p").text
